@@ -1,3 +1,6 @@
 def my_each (collection)
-  collection.do 
+  collection.length.times {
+    
+    
+  } 
 end
