@@ -1,6 +1,10 @@
 def my_each (collection)
-  collection.length.times { |i|
-    yield collection[i]
-    
-  } 
+  
+  counter = 0
+  
+  while counter < collection.length do
+    yield collection[counter]
+    counter++
+  end
+
 end
